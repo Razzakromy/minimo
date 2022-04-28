@@ -1,0 +1,279 @@
+/* Common Start */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', sans-serif;
+    ;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+
+/* Common End */
+/* Header Start */
+header {
+    padding: 20px 0;
+}
+
+.container {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 90%;
+}
+
+.logo {
+    margin-top: 13px;
+    width: 15%;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    width: 65%;
+    float: right;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    display: inline-block;
+    margin: 0 60px;
+    padding: 4px 3px 2px;
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+
+.menu ul li:last-child a {
+    margin-right: 0px;
+}
+
+.menu ul li a:hover {
+    color: #000000;
+    border-bottom: 1px solid #000000;
+
+}
+
+/* Header End */
+/* Banner Start */
+.banner {}
+
+.b_img {}
+
+.b_img img {
+    width: 100%;
+}
+
+/* Banner End */
+
+/* Perfect Start */
+.perfect {
+    padding: 50px 0;
+}
+
+.container2 {
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.p_content {}
+
+.c_light {
+    font-family: "Ubuntu", sans-serif;
+    font-style: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+
+.c_h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.text {}
+
+/* Perfect End */
+
+/* Blog Start */
+.blog {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.blogs {}
+
+.single {
+    width: 47%;
+    float: left;
+    margin-top: 30px;
+}
+
+.single:nth-child(even) {
+    margin-left: 6%;
+}
+
+.s_img {
+    margin-bottom: 5px;
+}
+
+.s_img img {
+    width: 100%;
+}
+
+/* Blog End */
+/* Contact Start */
+
+/* Contact End */
+
+/* Blog2 Start */
+.load {
+    padding: 75px 0;
+    text-align: center;
+}
+
+.btn {
+    width: 160px;
+    height: 60px;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    background: transparent;
+    border: 1px solid;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+
+.btn:hover {
+    background: #626262;
+    color: #fff;
+}
+
+/* Blog2 Start */
+.blog2{
+    padding-top: 50px;
+}
+/* Blog2 End */
+
+/* Footer Start */
+footer {
+    background: #f0f0f0;
+    padding: 25px 0;
+}
+
+.terms {
+    width: 30%;
+    float: left;
+}
+
+.terms ul {}
+
+.terms ul li {
+    list-style: none;
+    float: left;
+}
+
+.terms ul li a {
+    display: inline-block;
+    margin-right: 20px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.social {
+    width: 40%;
+    float: right;
+}
+
+.social ul {
+    list-style: none;
+    float: right;
+}
+
+.social ul li {
+    list-style: none;
+    float: left;
+}
+
+.follow {
+    margin-right: 20px;
+}
+
+.social ul li a {
+    display: inline-block;
+    margin-right: 20px;
+    color: #333333;
+}
+
+.contact {
+    padding: 50px;
+    background: #f0f0f0;
+}
+
+.signup {
+    text-align: center;
+}
+
+.signup h2{
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.s_form {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+}
+.s_form input{
+    width: 400px;
+    height: 45px;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: transparent;
+    color: #626262;
+    border: none;
+    border-bottom: 1px solid #626262;
+    margin-right: 50px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+.s_form button:focus{
+    outline: 0;
+}
+.s_form button img{
+}
+
+
+/* Footer End */
