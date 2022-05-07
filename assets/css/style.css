@@ -247,7 +247,7 @@ footer {
     width: 400px;
 }
 .s_form input{
-    width: 400px;
+    width: 345px;
     height: 45px;
     font-family: 'Playfair Display', sans-serif;
     font-size: 14px;
@@ -257,6 +257,8 @@ footer {
     border: none;
     border-bottom: 1px solid #626262;
     margin-right: 50px;
+    padding-left: 5px;
+    padding-right: 45px;
 }
 .s_form input:focus{
     outline: 0;
